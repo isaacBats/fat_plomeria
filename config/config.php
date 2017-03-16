@@ -9,13 +9,19 @@
 	define('__ASSETS__',  __DIR__."/../assets/" );
 
 	$cfg = new \Spot\Config();
-	$cfg->addConnection('mysql', [
-	    'dbname' => 'luna',
-	    'user' => 'luna',
-	    'password' => 'luna',
-	    'host' => 'localhost',
-	    'driver' => 'pdo_mysql',
-	]);
+	
+	// Conection SQLite
+	// $cfg->addConnection('sqlite', 'sqlite://../database_plumbing/plumbing.db');
+	$cfg->addConnection('sqlite', 'sqlite://'.__OLIVE__.'/database_plumbing/plumbing.db');
+
+	// Connection Mysql Data Base
+	// $cfg->addConnection('mysql', [
+	//     'dbname' => 'luna',
+	//     'user' => 'luna',
+	//     'password' => 'luna',
+	//     'host' => 'localhost',
+	//     'driver' => 'pdo_mysql',
+	// ]);
 
 	global $spot;
 	$spot = new \Spot\Locator($cfg);
