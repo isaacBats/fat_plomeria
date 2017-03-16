@@ -6,6 +6,7 @@
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+  color: #7d7d7d;
 }
 p {
   font-size: 20px;
@@ -182,7 +183,8 @@ section h2 {
 }
 section.success {
   /*background: #18BC9C;*/
-  color: black;
+  /*color: black;*/
+  color: #7d7d7d;
 }
 @media (max-width: 767px) {
   section {
@@ -297,14 +299,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #234573;
+  background-color: #000;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #233140;
+  background-color: #000;
 }
 .btn-outline {
   color: white;
@@ -512,9 +514,42 @@ fieldset[disabled] .btn-success.active {
   transition: top 0.1s ease-in, background 0.5s linear;
 }
 div#maincontent {
-  background-image:  url("/assets/images/site/plomeria.jpg");
+  /*background-image:  url("/assets/images/site/plomeria.jpg");
   background-size: 100% 100%;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
   outline: none;
 }
+
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }

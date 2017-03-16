@@ -11,7 +11,8 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <!-- Responsive Slides-->
+    <link href="/assets/css/responsiveslides.css" rel="stylesheet">
     <!-- Theme CSS -->
     <link href="/assets/css/plumbing.css" rel="stylesheet">
 

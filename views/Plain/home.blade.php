@@ -51,6 +51,11 @@
 	                    </div>
 	                </div>
 	            </div> --}}
+	            <ul class="rslides">
+				  <li><img src="/assets/images/site/plomeria.jpg" alt=""></li>
+				  <li><img src="http://placehold.it/800x600" alt=""></li>
+				  <li><img src="http://placehold.it/800x600" alt=""></li>
+				</ul>
 	        </div>
 	    </header>
 	    
@@ -159,7 +164,7 @@
 	    </section>
 
 	    <!-- Contact Section -->
-	    <section id="contact">
+	    {{-- <section id="contact">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-lg-12 text-center">
@@ -211,7 +216,7 @@
 	                </div>
 	            </div>
 	        </div>
-	    </section>
+	    </section> --}}
 
 	    <!-- Footer -->
 	    <footer class="text-center">
@@ -285,7 +290,7 @@
 	                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 	                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	                            <ul class="list-inline item-details">
+	                            {{-- <ul class="list-inline item-details">
 	                                <li>Client:
 	                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
 	                                    </strong>
@@ -298,7 +303,7 @@
 	                                    <strong><a href="http://startbootstrap.com">Web Development</a>
 	                                    </strong>
 	                                </li>
-	                            </ul>
+	                            </ul> --}}
 	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
 	                        </div>
 	                    </div>
@@ -327,7 +332,7 @@
 	                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 	                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	                            <ul class="list-inline item-details">
+	                            {{-- <ul class="list-inline item-details">
 	                                <li>Client:
 	                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
 	                                    </strong>
@@ -340,7 +345,7 @@
 	                                    <strong><a href="http://startbootstrap.com">Web Development</a>
 	                                    </strong>
 	                                </li>
-	                            </ul>
+	                            </ul> --}}
 	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
 	                        </div>
 	                    </div>
@@ -369,7 +374,7 @@
 	                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 	                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	                            <ul class="list-inline item-details">
+	                            {{-- <ul class="list-inline item-details">
 	                                <li>Client:
 	                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
 	                                    </strong>
@@ -382,7 +387,7 @@
 	                                    <strong><a href="http://startbootstrap.com">Web Development</a>
 	                                    </strong>
 	                                </li>
-	                            </ul>
+	                            </ul> --}}
 	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
 	                        </div>
 	                    </div>
@@ -411,7 +416,7 @@
 	                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 	                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	                            <ul class="list-inline item-details">
+	                            {{-- <ul class="list-inline item-details">
 	                                <li>Client:
 	                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
 	                                    </strong>
@@ -424,7 +429,7 @@
 	                                    <strong><a href="http://startbootstrap.com">Web Development</a>
 	                                    </strong>
 	                                </li>
-	                            </ul>
+	                            </ul> --}}
 	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
 	                        </div>
 	                    </div>
@@ -453,7 +458,7 @@
 	                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 	                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	                            <ul class="list-inline item-details">
+	                            {{-- <ul class="list-inline item-details">
 	                                <li>Client:
 	                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
 	                                    </strong>
@@ -466,7 +471,7 @@
 	                                    <strong><a href="http://startbootstrap.com">Web Development</a>
 	                                    </strong>
 	                                </li>
-	                            </ul>
+	                            </ul> --}}
 	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
 	                        </div>
 	                    </div>
@@ -495,7 +500,7 @@
 	                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 	                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	                            <ul class="list-inline item-details">
+	                            {{-- <ul class="list-inline item-details">
 	                                <li>Client:
 	                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
 	                                    </strong>
@@ -508,7 +513,7 @@
 	                                    <strong><a href="http://startbootstrap.com">Web Development</a>
 	                                    </strong>
 	                                </li>
-	                            </ul>
+	                            </ul> --}}
 	                            <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
 	                        </div>
 	                    </div>
@@ -523,6 +528,9 @@
 	    <!-- Bootstrap Core JavaScript -->
 	    <script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
 
+	    <!-- Responsive Slides -->
+	    <script src="/assets/js/responsiveslides.min.js"></script>
+
 	    <!-- Plugin JavaScript -->
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
@@ -532,4 +540,29 @@
 
 	    <!-- Theme JavaScript -->
 	    <script src="/assets/js/freelancer.min.js"></script>
+	    <script>
+		  $(function() {
+		    $(".rslides").responsiveSlides();
+		  });
+
+		 //  $(".rslides").responsiveSlides({
+			//   auto: true,             // Boolean: Animate automatically, true or false
+			//   speed: 500,            // Integer: Speed of the transition, in milliseconds
+			//   timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+			//   pager: false,           // Boolean: Show pager, true or false
+			//   nav: false,             // Boolean: Show navigation, true or false
+			//   random: false,          // Boolean: Randomize the order of the slides, true or false
+			//   pause: false,           // Boolean: Pause on hover, true or false
+			//   pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+			//   prevText: "Previous",   // String: Text for the "previous" button
+			//   nextText: "Next",       // String: Text for the "next" button
+			//   maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+			//   navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+			//   manualControls: "",     // Selector: Declare custom pager navigation
+			//   namespace: "rslides",   // String: Change the default namespace used
+			//   before: function(){},   // Function: Before callback
+			//   after: function(){}     // Function: After callback
+			// });
+
+		</script>
 @stop
